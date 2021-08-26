@@ -1,0 +1,1 @@
+(self.webpackChunkl41=self.webpackChunkl41||[]).push([[671],{8671:(e,t,n)=>{"use strict";n.r(t),n.d(t,{SettingsModule:()=>u});var s=n(2057),r=n(793);let u=(()=>{class e{}return e.\u0275fac=function(t){return new(t||e)},e.\u0275mod=r.oAB({type:e}),e.\u0275inj=r.cJS({imports:[[s.ez]]}),e})()}}]);
