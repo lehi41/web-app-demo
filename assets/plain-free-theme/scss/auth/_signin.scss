@@ -76,3 +76,13 @@
     }
   }
 }
+
+/* ============ Theme Change Css ============== */
+.darkTheme {
+  .auth-row {
+    background: $dark;
+  }
+  .signin-wrapper {
+    background: $dark;
+  }
+}

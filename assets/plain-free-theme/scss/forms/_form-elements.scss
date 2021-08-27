@@ -27,8 +27,8 @@
       border-color: $primary;
     }
 
-    &[type='date'],
-    &[type='time'] {
+    &[type="date"],
+    &[type="time"] {
       background: transparent;
     }
   }
@@ -61,18 +61,18 @@
       border-color: $primary;
     }
 
-    &[type='date'],
-    &[type='time'] {
+    &[type="date"],
+    &[type="time"] {
       background: transparent;
     }
   }
 
-  input[type='date']::-webkit-inner-spin-button,
-  input[type='date']::-webkit-calendar-picker-indicator {
+  input[type="date"]::-webkit-inner-spin-button,
+  input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
   }
 
-  input[type='date'] ~ .icon {
+  input[type="date"] ~ .icon {
     z-index: -1;
   }
 
@@ -139,7 +139,7 @@
     &::after {
       border-bottom: 2px solid $gray;
       border-right: 2px solid $gray;
-      content: '';
+      content: "";
       display: block;
       height: 10px;
       width: 10px;
@@ -215,7 +215,7 @@
 
     &::before,
     &::after {
-      content: '';
+      content: "";
       display: block;
       height: 8px;
       width: 8px;
@@ -281,7 +281,7 @@
     &::after {
       border-bottom: 2px solid $gray;
       border-right: 2px solid $gray;
-      content: '';
+      content: "";
       display: block;
       height: 10px;
       width: 10px;
@@ -440,10 +440,55 @@
     }
   }
 }
+
 .button-group {
   @media #{$xs} {
     .main-btn {
       width: 100%;
+    }
+  }
+}
+
+/* ========== Theme Change Css =========== */
+.darkTheme {
+  .input-style-1,
+  .input-style-2,
+  .input-style-3 {
+    label {
+      color: rgba($light, 0.5);
+    }
+
+    input,
+    textarea {
+      background: rgba($dark-2, 0.2);
+      border-color: $dark-2;
+      color: $gray;
+
+      &::placeholder {
+        color: $gray;
+      }
+    }
+  }
+
+  .select-style-1,
+  .select-style-2,
+  .select-style-3 {
+    label {
+      color: rgba($light, 0.5);
+    }
+
+    select {
+      border-color: $dark-2;
+
+      &.light-bg {
+        background: $dark-2;
+      }
+    }
+  }
+
+  .select-style-3 {
+    select {
+      color: $white;
     }
   }
 }

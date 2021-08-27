@@ -1,0 +1,21 @@
+/* ========== Form Editors ========= */
+
+.form-editor-wrapper {
+  .ql-toolbar {
+    &.ql-snow {
+      border-color: $black-10;
+      border-radius: 4px 4px 0px 0px;
+    }
+  }
+
+  .ql-container {
+    &.ql-snow {
+      border-color: $black-10;
+      border-radius: 0px 0px 4px 4px;
+
+      .ql-editor {
+        min-height: 350px;
+      }
+    }
+  }
+}

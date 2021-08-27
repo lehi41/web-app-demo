@@ -38,3 +38,22 @@
     }
   }
 }
+
+/* ========= Theme Change Css =========== */
+.darkTheme {
+  .icons-wrapper {
+    .icons,
+    ul {
+      & > div,
+      li {
+        i {
+          color: $white;
+          border-color: $gray;
+        }
+        span {
+          color: rgba($white, 0.5);
+        }
+      }
+    }
+  }
+}

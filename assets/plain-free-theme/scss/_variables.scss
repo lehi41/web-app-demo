@@ -1,5 +1,5 @@
 // Font Family
-$font: 'Inter', sans-serif;
+$font: "Inter", sans-serif;
 
 // ======== white colors variants
 $white: #fff;
@@ -67,9 +67,9 @@ $deactive: #cbe1ff;
 $orange: #f2994a;
 
 // ======== Responsive Variables
-$desktop: 'only screen and (min-width: 1400px)';
-$laptop: 'only screen and (min-width: 1200px) and (max-width: 1399px)';
-$lg: 'only screen and (min-width: 992px) and (max-width: 1199px)';
-$md: 'only screen and (min-width: 768px) and (max-width: 991px)';
-$xs: '(max-width: 767px)';
-$sm: 'only screen and (min-width: 550px) and (max-width: 767px)';
+$desktop: "only screen and (min-width: 1400px)";
+$laptop: "only screen and (min-width: 1200px) and (max-width: 1399px)";
+$lg: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$md: "only screen and (min-width: 768px) and (max-width: 991px)";
+$xs: "(max-width: 767px)";
+$sm: "only screen and (min-width: 550px) and (max-width: 767px)";

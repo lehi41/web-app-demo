@@ -34,7 +34,7 @@
   overflow: hidden;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 0%;
     height: 0%;
@@ -321,5 +321,20 @@
   &.orange-btn {
     color: $orange;
     background: rgba($orange, 0.1);
+  }
+}
+
+/* ======= Theme Change Css =========== */
+.darkTheme {
+  .dark-btn {
+    background: $dark-2;
+  }
+  .dark-btn-outline {
+    border-color: rgba($white, 0.5);
+    color: rgba($white, 0.5);
+  }
+
+  .light-btn-outline {
+    color: $light;
   }
 }

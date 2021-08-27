@@ -74,3 +74,46 @@
     border-color: transparent;
   }
 }
+
+/* ========= Theme Change Css ============ */
+.darkTheme {
+  .calendar-card {
+    .fc {
+      .fc-button {
+        color: $white;
+      }
+
+      th {
+        border-bottom: 1px solid $black-10;
+
+        a {
+          color: $gray;
+          font-weight: 400;
+        }
+      }
+
+      .fc-day {
+        padding: 5px;
+        background: $dark;
+
+        &.fc-day-today {
+          .fc-daygrid-day-frame {
+            background: $primary;
+
+            a {
+              color: $white;
+            }
+          }
+        }
+
+        .fc-daygrid-day-frame {
+          background: $dark-2;
+
+          a {
+            color: $light;
+          }
+        }
+      }
+    }
+  }
+}
